@@ -1,0 +1,15 @@
+{
+  "authSelections": "userPoolOnly",
+  "resourceName": "proyecto",
+  "serviceType": "imported",
+  "region": "us-east-1",
+  "requiredAttributes": [],
+  "passwordPolicyMinLength": 8,
+  "passwordPolicyCharacters": [
+    "Requires Lowercase",
+    "Requires Uppercase",
+    "Requires Numbers"
+  ],
+  "mfaConfiguration": "OFF",
+  "mfaTypes": []
+}

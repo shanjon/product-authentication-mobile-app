@@ -1,0 +1,72 @@
+{
+  "api": {
+    "proyecto": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "proyecto"
+        }
+      ],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+            "userPoolConfig": {
+              "userPoolId": "authproyecto"
+            }
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
+  "auth": {
+    "proyecto": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_proyecto_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "proyecto"
+        }
+      ]
+    },
+    "AMPLIFY_auth_proyecto_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "proyecto"
+        }
+      ]
+    },
+    "AMPLIFY_auth_proyecto_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "proyecto"
+        }
+      ]
+    },
+    "AMPLIFY_auth_proyecto_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "proyecto"
+        }
+      ]
+    }
+  },
+  "storage": {}
+}

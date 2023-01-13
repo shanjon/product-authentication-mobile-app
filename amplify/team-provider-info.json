@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-proyecto-dev-183423-authRole",
+      "UnauthRoleArn": "arn:aws:iam::540653300445:role/amplify-proyecto-dev-183423-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::540653300445:role/amplify-proyecto-dev-183423-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-proyecto-dev-183423-deployment",
+      "UnauthRoleName": "amplify-proyecto-dev-183423-unauthRole",
+      "StackName": "amplify-proyecto-dev-183423",
+      "StackId": "arn:aws:cloudformation:us-east-1:540653300445:stack/amplify-proyecto-dev-183423/52ee1910-8c88-11ed-a584-12aa5c8c7f25",
+      "AmplifyAppId": "d15iew9r72zlf"
+    },
+    "categories": {
+      "auth": {
+        "proyecto02c7ddeb": {},
+        "proyecto": {
+          "userPoolId": "us-east-1_1QZr6aMpR",
+          "userPoolName": "ambSupplyChainUsers",
+          "webClientId": "74u4f8rmvkgb8fa2ek0otb7idd",
+          "nativeClientId": "74u4f8rmvkgb8fa2ek0otb7idd"
+        }
+      },
+      "api": {
+        "proyecto": {}
+      }
+    }
+  }
+}
