@@ -16,7 +16,7 @@ const handleSubmit = async () => {
   };
 
 const products = [
-  { id: '1', name: 'LVMH x AWS', image: 'https://i.ibb.co/7ptNmVX/DALL-E-2023-01-09-23-49-46-a-logo-for-a-collaboration-between-Amazon-Web-Services-and-Louis-Vuitton.png' },
+  { id: '1', name: '', image: '/Users/norashan/proyecto/src/assets/veritrace_homepage.png' },
 ];
 
   const renderProduct = ({ item }) => {
@@ -49,14 +49,14 @@ return (
           buttonStyle={{
             backgroundColor: '#ff9900',
             borderWidth: 2,
-            borderColor: 'white',
+            borderColor: '#ff9900',
             borderRadius: 10,
             paddingVertical: 12,
             paddingHorizontal: 12,
           }}
           containerStyle={{
             width: 200,
-            marginHorizontal: 50,
+            marginHorizontal: 60,
             marginVertical: 10,
           }}
           titleStyle={{ fontWeight: 'normal' , fontFamily:'Futura', fontSize:20}}
@@ -71,10 +71,11 @@ return (
           buttonStyle={{
             backgroundColor: '#ff9900',
             borderWidth: 2,
-            borderColor: 'white',
+            borderColor: '#ff9900',
             borderRadius: 10,
             paddingVertical: 12,
             paddingHorizontal: 12,
+            marginBottom: 75
           }}
           containerStyle={{
             width: 200,
@@ -85,19 +86,25 @@ return (
           onPress={() => navigation.navigate('ScanProduct')}
         />
         </ScrollView>
+          <ScrollView />
       </SafeAreaView>
     </>
   );
 };
 const styles = StyleSheet.create({
+  bottomBox: {
+    backgroundColor: "blue",
+  },
   addProductView: {
+    height: "100%",
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     paddingTop: 15,
     height: 'auto',
     justifyAlign:'center',
-    alignItems:'center'
+    alignItems:'center',
+    backgroundColor: '#000010'
   },
   product: {
     margin: 10,
@@ -107,16 +114,14 @@ const styles = StyleSheet.create({
   image: {
     width: '100%',
     aspectRatio: 1,
-    padding: 10,
     borderRadius: 20
   },
   info: {
-    marginTop: 20,
+    marginTop: 40,
     alignItems:'center',
   },
   name: {
     fontSize: 50,
-    fontWeight: '100',
     marginBottom: 20,
     fontFamily: "Futura",
     color:"white",

@@ -70,7 +70,7 @@ const App: () => React$Node = () => {
               headerStyle: {
                 backgroundColor: '#FFFFFF',
               },
-            }}
+            }}c
           />
           <Stack.Screen
             name="ListScreen" // directs to ListScreen

@@ -85,12 +85,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     paddingHorizontal:10,
-    fontFamily:'Futura',
+    fontFamily:'Horizon',
   },
   tittle:{
     fontSize:24,
     marginBottom:20,
-    fontFamily:'Futura',
+    fontFamily:'Horizon',
     paddingTop:20
   },
   itemContainer: {
@@ -104,33 +104,33 @@ const styles = StyleSheet.create({
     elevation: 1,
     backgroundColor: '#fff',
     marginBottom: 10,
-    fontFamily:'Futura',
+    fontFamily:'Horizon',
   },
   image: {
     width: 50,
     height: 50,
     borderRadius: 25,
-    fontFamily:'Futura',
+    fontFamily:'Horizon',
   },
   infoContainer: {
     marginLeft: 10,
     flex: 1,
-    fontFamily:'Futura',
+    fontFamily:'Horizon',
     padding:5
   },
   name: {
     fontSize: 18,
-    fontFamily:'Futura',
+    fontFamily:'Horizon',
   },
   price: {
     fontSize: 15,
     color: '#888',
-    fontFamily:'Futura',
+    fontFamily:'Horizon',
     paddingTop:4
   },
   removeButton: {
     alignItems: 'center',
-    fontFamily:'Futura',
+    fontFamily:'Horizon',
   },
   circleButton: {
     alignItems: 'center',
@@ -139,26 +139,26 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     paddingVertical: 8,
     paddingHorizontal: 10,
-    fontFamily:'Futura',
+    fontFamily:'Horizon',
     marginTop:20
   },
   quantityContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    fontFamily:'Futura',
+    fontFamily:'Horizon',
   },
   quantity: {
     marginRight: 10,
-    fontFamily:'Futura',
+    fontFamily:'Horizon',
   },
   detailsText: {
-    fontFamily:'Futura',
+    fontFamily:'Horizon',
     color:'blue',
     fontSize:16,
     paddingTop:16
   },
   buttonText: {
-    fontFamily:'Futura',
+    fontFamily:'Horizon',
     color:'white',
     fontSize:20,
     paddingVertical:6,
