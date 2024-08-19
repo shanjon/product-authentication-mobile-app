@@ -13,7 +13,7 @@ Technologies used:
 4) Lambda then returns the query response from the blockchain network to VeriTrace. <br> <br>
 
 
-<img src="images/homepage.png">
-<img src="images/products.pn">
-<img src="images/scan.png">
-<img src="images/track.png">
+<img src="images/homepage.png" width=20% height=20%>
+<img src="images/products.pn" width=20% height=20%>
+<img src="images/scan.png" width=20% height=20%>
+<img src="images/track.png" width=20% height=20%>
