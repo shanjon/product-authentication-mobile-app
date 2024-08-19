@@ -27,16 +27,18 @@ Counterfeit products cost brands billions annually. This mobile application allo
 <img src="images/track.png" width=20% height=20%>
 
 ## Architecture
+<p align="center">
 <img src="images/veritrace.png">
 
 1) User scans RFID chip-embedded product using the mobile app
 2) Scan event triggers API call to Lambda to find transactions related to the scanned product
 3) Lambda retrieves credentials from AWS Secrets Manager and queries product data from the HyperLedger Fabric blockchain.
-4) Lambda then returns the query response from the blockchain network to VeriTrace. <br> <br>
+4) Lambda then returns the query response from the blockchain network to VeriTrace. 
 
-## Getting started
 
 _Note: You must build/deploy your own Lambda function, Amazon Managed Secrets, and blockchain to integrate with this front-end._
+
+<br> <br>
 
 ## Support
 For questions or support, please open an issue.
