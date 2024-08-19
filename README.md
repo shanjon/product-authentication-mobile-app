@@ -38,7 +38,5 @@ Counterfeit products cost brands billions annually. This mobile application allo
 
 _Note: You must build/deploy your own Lambda function, Amazon Managed Secrets, and blockchain to integrate with this front-end._
 
-<br> <br>
-
 ## Support
 For questions or support, please open an issue.
