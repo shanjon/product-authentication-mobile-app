@@ -12,7 +12,7 @@ Technologies used:
 3) Lambda retrieves credentials from AWS Secrets Manager and queries product data from the HyperLedger Fabric blockchain.
 4) Lambda then returns the query response from the blockchain network to VeriTrace. <br> <br>
 
-<p align="center">
+
 ![homepage](images/homepage.png)
 ![products](images/products.png)
 ![scan](images/scan.png)
